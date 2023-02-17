@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: test-container
-          image: nginx:latest
+          image: nginx:1.23.3
           ports:
             - containerPort: 80
           envFrom:
